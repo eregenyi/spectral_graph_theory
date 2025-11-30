@@ -10,21 +10,26 @@ The purpose of this code is to synthesize complex mathematical concepts (Graph T
 
 The code is organized to mirror the paper's logical flow, moving from fundamental concepts to complex application:
 
-*   notebooks/
+*   theory/
     
-    *   1\_laplacian\_intuition.ipynb: Code accompanying Sections 1 & 2 (Continuous and Discrete Laplacian).
+    *   continuous\_laplacian.ipynb: Code accompanying Section 1 (Continuous).
         
-    *   2\_spectral\_basics.ipynb: Code accompanying Sections 3 & 4 (Graph Laplacian, Eigenvalues, and Eigenvectors).
+    *   graph\_laplacian.ipynb: Code accompanying Section 2-5 (Discrete Laplacian, Graph Laplacian, Eigenvalues, and Eigenvectors).
         
-    *   3\_random\_walk\_sim.ipynb: Code for the Random Walk simulation (Section 7, Probabilistic Interpretation).
+    *   spectral\_clsutering.ipynb: Code accompanying Section 6 (Spectral Clustering).
         
-    *   4\_genomics\_application.ipynb: Full implementation of the Spectral Clustering methodology on the bulk RNA-seq data (Final Section).
+    *   random\_walk.ipynb: Code accompanying Section 7 (Probabilistic Interpretation).
         
-*   data/
+*   application/
     
-    *   input\_data.RData: Processed bulk RNA-seq count matrix, similarity matrix, and metadata used for the genomics application
+    *   application.ipynb: Code accompanying Section 8 (Example application in Bioinformatics).
+    
+    *   data/input\_data.RData: Processed bulk RNA-seq count matrix, similarity matrix, and metadata used for the genomics application
+      
         
 *   LICENSE.md: The full text of the MIT License.
+  
+*   README.md: General information of the repo.
     
 
 🛠️ Setup and Installation
@@ -36,25 +41,23 @@ To run the analysis and reproduce the figures locally, follow these steps.
 
 We recommend setting up a virtual environment (e.g., using conda or venv).
 
-This project requires Python 3.9+ and the following packages:
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   # Recommended environment setup  conda create -n spectral-env python=3.10  conda activate spectral-env  # Install required packages  pip install pandas numpy scikit-learn matplotlib seaborn networkx   `
+This project requires Python 3.9+ And R 4.4.3+
 
 ### 2\. Running the Notebooks
 
-All code is contained within the Jupyter notebooks in the notebooks/ directory.
+All code is contained within the Jupyter notebooks in the theory and application subdirectories.
 
 1.  Start Jupyter: jupyter lab or jupyter notebook
     
-2.  Open the notebooks sequentially (1 through 4) to follow the paper's logic.
+2.  Open the notebooks sequentially to follow the paper's logic.
     
 
 📄 Citation
 -----------
 
-If you use this code or the spectral clustering application methodology in your own work, please cite the associated paper:
+If you use this code or the spectral clustering application methodology in your own work, please cite our repository. 
+Citation will be updated upon publication of our assocated paper.
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   @article{coueraud2025spectral,    author = {Couéraud, Benjamin and Regényi, Enik{ő}},    title = {A gentle introduction to spectral clustering},    journal = {Preprint},    year = {2025},    url = {[https://github.com/eregenyi/spectral_graph_theory](https://github.com/eregenyi/spectral_graph_theory)}  }   `
 
 📝 License
 ----------
