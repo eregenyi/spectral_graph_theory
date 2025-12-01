@@ -30,7 +30,7 @@ The code is organized to mirror the paper's logical flow, moving from fundamenta
 🛠️ Requirements
 ---------------
 
-This project requires Python 3.9+ And R 4.4.3+. We recommend setting up a virtual environment (e.g., using conda or venv). For the Python code, requirements can be found in `theory/requirements.txt`.
+This project requires Python 3.9+ And R 4.4.3+. We recommend setting up a virtual environment (e.g., using conda or venv). Requirements can be found in `theory/requirements.txt` and `application/requirements.txt` for notebooks in the respective folders.
     
 
 💾 Data
