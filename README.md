@@ -1,11 +1,11 @@
 Spectral Clustering: A Gentle Introduction and Genomics Application
 ===================================================================
 
-This repository contains the code, examples, and data used to generate the figures presented in the review paper, **"A gentle introduction to spectral clustering"** by Benjamin Couéraud and Enikő Regényi (2025).
+This repository contains the code and the data to reproduce all figures and analyses presented in **"Spectral Clustering for Interdisciplinary Research: From Graph Theory to RNA-seq Data Analysis"** by Benjamin Couéraud and Enikő Regényi (2025).
 
 The purpose of this code is to synthesize mathematical concepts (Graph Theory, Linear Algebra, Probability Theory) and demonstrate their practical application in high-dimensional biological data analysis.
 
-🚀 Structure
+🚀 Repository Structure
 ------------
 
 The code is organized to mirror the paper's logical flow, moving from fundamental concepts to complex application:
@@ -19,18 +19,22 @@ The code is organized to mirror the paper's logical flow, moving from fundamenta
     *   `spectral_clustering.ipynb`: Code accompanying Section 6 (Spectral Clustering).
         
     *   `random_walk.ipynb`: Code accompanying Section 7 (Probabilistic Interpretation).
+ 
+    *   `requirements.txt`
         
 *   `application/`
     
     *   `application.ipynb`: Code accompanying Section 8 (Example application in Bioinformatics).
     
     *   `data/input_data.RData`: Processed bulk RNA-seq count matrix, similarity matrix, and metadata used for the genomics application.
+ 
+    *   `requirements.txt` 
     
 
 🛠️ Requirements
 ---------------
 
-This project requires Python 3.9+ (theory) And R 4.4.3+ (application). We recommend setting up a virtual environment (e.g., using conda or venv). Requirements can be found in `theory/requirements.txt` and `application/requirements.txt` for notebooks in the respective folders.
+This project requires Python 3.9+ (theory) And R 4.4.3+ (application). We recommend setting up a virtual environment (e.g., using conda or venv). Further details can be found in `theory/requirements.txt` and `application/requirements.txt` for notebooks in the respective folders.
     
 
 💾 Data
@@ -43,7 +47,10 @@ Bajtai, Eszter, et al. "Therapy-induced senescence is a transient drug resistanc
 📄 Citation
 -----------
 
-If you use this code or the spectral clustering application methodology in your own work, please cite our paper. Citation will be updated upon publication of our associated paper.
+If you use this code or the spectral clustering application methodology in your own work, please cite our paper available [here](https://www.preprints.org/manuscript/202512.1031). 
+
+Couéraud,  B., & Regényi,  E. (2025). Spectral Clustering for Interdisciplinary Research: From Graph Theory to RNA-seq Data Analysis. Preprints. https://doi.org/10.20944/preprints202512.1031.v1
+
 
 
 📝 License
