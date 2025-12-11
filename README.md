@@ -1,4 +1,4 @@
-Spectral Clustering for Interdisciplinary Research
+Spectral Graph Theory for Interdisciplinary Research
 ===================================================================
 
 This repository contains the code and the data to reproduce all figures and analyses presented in **"Spectral Clustering for Interdisciplinary Research: From Graph Theory to RNA-seq Data Analysis"** by Benjamin Couéraud and Enikő Regényi (2025).
